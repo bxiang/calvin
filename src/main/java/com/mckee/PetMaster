@@ -1,0 +1,19 @@
+package com.mckee
+
+public class PetMaster {
+
+    public static void main(String[] args) {
+
+        String petReaction;      (1)
+
+        Pet myPet = new Pet();   (2)
+
+        myPet.eat();             (3)
+
+        petReaction = myPet.talk("Tweet!! Tweet!!"); (4)
+
+        System.out.println(petReaction);  (5)
+
+        myPet.sleep();        (6)
+    }
+}
