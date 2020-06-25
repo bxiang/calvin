@@ -6,6 +6,11 @@ package com.mckee;
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");  // comments goes herr
+        System.out.println("Hello World!");  // comments goes here
     }
+
+    public int add2Numbers(int a, int b) {
+        return a + b;
+    }
+
 }
