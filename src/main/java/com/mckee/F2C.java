@@ -1,6 +1,6 @@
 package com.mckee;
 
-import java.util.Scanner; 2
+import java.util.Scanner;
 
 public class F2C {
 
