@@ -1,9 +1,14 @@
 package edabit;
 
 public class DecToBin1 {
+    static String someProperty = "abcd";
+
     public static void main(String[] args) {
+        DecToBin1 thisO = new DecToBin1();
         System.out.println("Binary number is:" + binary(47));
+        System.out.println(someProperty);
     }
+
 
     public static String binary(int dec) {
         String result = "";

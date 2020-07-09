@@ -9,9 +9,9 @@ public class StringFuncs {
 ////        String lastName = calvin.substring(i, 8);
 //        System.out.println(lastName);
         System.out.println(calvin.charAt(3));
-//        String calvin2 = calvin.trim();
-//        System.out.println(calvin2);
-//        String[] calvin3 = calvin2.split(" ");
+        String calvin2 = calvin.trim();
+        System.out.println(calvin2);
+        String[] calvin3 = calvin2.split(" ");
 //
 //        for (int i = 0; i < calvin3.length; i++) {
 //            System.out.println(calvin3[i]);

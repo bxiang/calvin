@@ -7,11 +7,10 @@ public class SumDigits {
     }
 
     public static String sumDigit(String input) {
-        int length = input.length();
         int counter = 0;
 
         char[] array = input.toCharArray();
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < array.length; i++) {
 
             for (int x = 48; x < 58; x++) {
                 if (array[i] == x) {
@@ -24,11 +23,10 @@ public class SumDigits {
     }
 
     public static String sumDigit1(String input) {
-        int length = input.length();
         int counter = 0;
 
         char[] array = input.toCharArray();
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (Character.isDigit(array[i])) {
                 int x = Integer.parseInt("" + array[i]);
                 counter = counter + x;
